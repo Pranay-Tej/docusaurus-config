@@ -85,6 +85,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: "/", // docs-only mode
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
